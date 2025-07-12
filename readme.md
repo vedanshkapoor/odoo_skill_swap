@@ -42,5 +42,5 @@ The goal is to **democratize learning**, especially in communities or groups whe
 
 ---
 
-## 🏗️ System Architecture
+## Demo video link : https://drive.google.com/drive/folders/17HBzqQNbADnMKf6NmJH1zVKgJX67aWl2?usp=drive_link
 
