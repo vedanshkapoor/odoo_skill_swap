@@ -20,3 +20,374 @@
 2025-07-12 12:36:23,040 INFO: Added swap: <Swap(id=5, from_user_id=5, to_user_id=5, status=pending)>
 2025-07-12 12:36:23,046 INFO: Retrieved swap: 5
 2025-07-12 12:36:23,080 INFO: Added feedback for swap 5
+2025-07-12 12:55:57,905 DEBUG: Database initialized in routes.py
+2025-07-12 13:05:36,471 DEBUG: Database initialized in routes.py
+2025-07-12 13:06:13,591 INFO: Registered user: <User(id=6, name=Alice, location=Delhi)>
+2025-07-12 13:06:13,611 INFO: Added skill for user 6: Python
+2025-07-12 13:06:13,646 INFO: Retrieved swaps for user 6
+2025-07-12 13:06:13,655 INFO: Added swap: <Swap(id=6, from_user_id=6, to_user_id=6, status=pending)>
+2025-07-12 13:06:13,660 INFO: Retrieved swap: 6
+2025-07-12 13:06:13,678 INFO: Added feedback for swap 6
+2025-07-12 13:09:25,087 DEBUG: Database initialized in routes.py
+2025-07-12 13:24:22,762 DEBUG: Database initialized in routes.py
+2025-07-12 13:24:23,434 DEBUG: Database initialized in routes.py
+2025-07-12 13:24:40,187 INFO: Registered user: <User(id=7, name=Alice, location=Delhi)>
+2025-07-12 13:24:40,218 INFO: Added skill for user 7: Python
+2025-07-12 13:24:40,244 INFO: Retrieved swaps for user 7
+2025-07-12 13:24:40,255 INFO: Added swap: <Swap(id=7, from_user_id=7, to_user_id=7, status=pending)>
+2025-07-12 13:24:40,273 INFO: Retrieved swap: 7
+2025-07-12 13:24:40,281 INFO: Added feedback for swap 7
+2025-07-12 13:27:16,511 INFO: Added skill for user 3: MATLAB
+2025-07-12 13:27:16,520 INFO: Added skill for user 3: TensorFlow
+2025-07-12 13:27:16,527 INFO: Added skill for user 3: LLMs
+2025-07-12 13:27:16,550 INFO: Added skill for user 3: Java
+2025-07-12 13:27:16,582 INFO: Added skill for user 3: Generative AI
+2025-07-12 13:27:16,591 INFO: Added skill for user 3: Time Series
+2025-07-12 13:27:16,612 INFO: Added skill for user 3: CSS
+2025-07-12 13:27:16,620 INFO: Added skill for user 3: MLflow
+2025-07-12 13:27:16,643 INFO: Added skill for user 3: Javascript
+2025-07-12 13:27:16,675 INFO: Added skill for user 3: Reinforcement Learning
+2025-07-12 13:27:16,683 INFO: Added skill for user 3: Transformers
+2025-07-12 13:27:16,691 INFO: Added skill for user 3: Keras
+2025-07-12 13:27:16,722 INFO: Added skill for user 3: Docker
+2025-07-12 13:27:16,753 INFO: Added skill for user 3: Python
+2025-07-12 13:27:16,785 INFO: Added skill for user 3: PyTorch
+2025-07-12 13:27:16,815 INFO: Added skill for user 3: Flask
+2025-07-12 13:27:16,846 INFO: Added skill for user 3: Go
+2025-07-12 13:27:16,877 INFO: Added skill for user 3: Google Cloud
+2025-07-12 13:27:16,909 INFO: Added skill for user 3: ReactJS
+2025-07-12 13:27:16,940 INFO: Added skill for user 3: SQL
+2025-07-12 13:27:16,971 INFO: Added skill for user 3: NLP
+2025-07-12 13:27:17,001 INFO: Added skill for user 3: Kubernetes
+2025-07-12 13:27:17,032 INFO: Added skill for user 3: CI/CD
+2025-07-12 13:27:17,041 INFO: Added skill for user 3: Sphinx
+2025-07-12 13:27:17,064 INFO: Added skill for user 3: R
+2025-07-12 13:27:17,072 INFO: Added skill for user 3: HTML
+2025-07-12 13:27:17,079 INFO: Added skill for user 3: CUDA
+2025-07-12 13:27:17,087 INFO: Added skill for user 3: FastAPI
+2025-07-12 13:27:17,111 INFO: Added skill for user 3: Kafka
+2025-07-12 13:27:17,142 INFO: Added skill for user 3: Multi-Modal transformers
+2025-07-12 13:27:17,174 INFO: Added skill for user 3: Latex
+2025-07-12 13:27:17,183 INFO: Added skill for user 3: GO
+2025-07-12 13:27:17,191 INFO: Added skill for user 3: XGBoost
+2025-07-12 13:27:17,199 INFO: Added skill for user 3: Git
+2025-07-12 13:27:17,206 INFO: Added skill for user 3: Computer Vision
+2025-07-12 13:27:17,235 INFO: Added skill for user 3: foundational Models
+2025-07-12 13:35:07,058 DEBUG: Database initialized in routes.py
+2025-07-12 13:40:10,615 DEBUG: Database initialized in routes.py
+2025-07-12 13:43:59,400 INFO: Extract_skills.py test starting.
+2025-07-12 13:43:59,400 INFO: Processing resumes from directory: D:\personal_projects\skill_swap\skill_swapp\data\resumes
+2025-07-12 13:43:59,402 DEBUG: Database tables already exist
+2025-07-12 13:44:00,243 DEBUG: Extracted skills from D:\personal_projects\skill_swap\skill_swapp\data\resumes\jul25.pdf: ['Python', 'Java', 'Sql', 'Html', 'Css', 'Javascript']
+2025-07-12 13:44:00,257 INFO: Processed resume jul25.pdf and added skills for user 1
+2025-07-12 13:44:00,257 INFO: Extract_skills.py test completed. Check app.log and data/resumes/ for results.
+2025-07-12 13:45:17,560 DEBUG: Database initialized in routes.py
+2025-07-12 13:47:25,610 DEBUG: Database initialized in routes.py
+2025-07-12 13:47:39,602 DEBUG: Database initialized in routes.py
+2025-07-12 13:47:48,593 DEBUG: Database initialized in routes.py
+2025-07-12 13:50:06,775 DEBUG: Database initialized in routes.py
+2025-07-12 13:50:07,786 INFO: Embeddings.py test starting.
+2025-07-12 13:50:07,796 DEBUG: Ollama server is accessible
+2025-07-12 13:50:08,476 DEBUG: Database initialized in routes.py
+2025-07-12 13:50:10,815 DEBUG: Generated embeddings for 48 skills
+2025-07-12 13:50:10,818 ERROR: Error building FAISS index: in method 'IndexFlatCodes_add', argument 3 of type 'float const *'
+2025-07-12 13:50:10,819 ERROR: Failed to build FAISS index
+2025-07-12 13:50:10,819 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 13:52:06,128 INFO: Embeddings.py test starting.
+2025-07-12 13:52:06,139 DEBUG: Ollama server is accessible
+2025-07-12 13:52:06,330 DEBUG: Database initialized in routes.py
+2025-07-12 13:52:07,508 DEBUG: Generated embeddings for 48 skills
+2025-07-12 13:52:07,511 INFO: Built and saved FAISS index to D:\personal_projects\skill_swap\skill_swapp\app\..\data\embeddings\skill_index.faiss
+2025-07-12 13:52:07,514 DEBUG: Ollama server is accessible
+2025-07-12 13:52:07,535 DEBUG: Generated embeddings for 1 skills
+2025-07-12 13:52:07,538 DEBUG: Queried similar skills, distances: [[0. 0. 0. 0. 0.]], indices: [[1 2 3 4 0]]
+2025-07-12 13:52:07,538 INFO: Top similar skills for 'Python': distances=[[0. 0. 0. 0. 0.]], indices=[[1 2 3 4 0]]
+2025-07-12 13:52:07,539 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 13:53:48,641 INFO: Embeddings.py test starting.
+2025-07-12 13:53:48,651 DEBUG: Ollama server is accessible
+2025-07-12 13:53:48,969 DEBUG: Database initialized in routes.py
+2025-07-12 13:53:50,029 DEBUG: Generated embeddings for 48 skills
+2025-07-12 13:53:50,031 DEBUG: Embedding dimension: 768
+2025-07-12 13:53:50,031 INFO: Built and saved FAISS index to D:\personal_projects\skill_swap\skill_swapp\app\..\data\embeddings\skill_index.faiss
+2025-07-12 13:53:50,034 DEBUG: Ollama server is accessible
+2025-07-12 13:53:50,053 DEBUG: Generated embeddings for 1 skills
+2025-07-12 13:53:50,065 INFO: Top 5 similar skills for 'Python': distances=[27.735817 27.735817 27.735817 27.735817 27.735817], indices=[1 2 3 4 0]
+2025-07-12 13:53:50,065 INFO: Top similar skills for 'Python': distances=[27.735817 27.735817 27.735817 27.735817 27.735817], indices=[1 2 3 4 0]
+2025-07-12 13:53:50,065 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 14:13:13,363 DEBUG: Database initialized in routes.py
+2025-07-12 14:26:05,290 DEBUG: Database initialized in routes.py
+2025-07-12 14:26:28,250 INFO: Embeddings.py test starting.
+2025-07-12 14:26:28,262 ERROR: Ollama server or models unavailable: Required models (phi-3 and mxbai-embed-large) not found. Check available models with 'ollama list'.. Ensure 'ollama run phi-3' and 'ollama run mxbai-embed-large' are active.
+2025-07-12 14:26:28,262 ERROR: Failed to generate embeddings
+2025-07-12 14:26:28,262 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 14:31:06,098 INFO: Embeddings.py test starting.
+2025-07-12 14:31:06,108 ERROR: Ollama server or models unavailable: Required models (phi-3 and mxbai-embed-large) not found. Check available models with 'ollama list'.. Ensure 'ollama run phi-3' and 'ollama run mxbai-embed-large' are active.
+2025-07-12 14:31:06,108 ERROR: Failed to generate embeddings
+2025-07-12 14:31:06,108 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 14:32:16,059 INFO: Embeddings.py test starting.
+2025-07-12 14:32:16,341 ERROR: Ollama server or models unavailable: Required models (phi-3 and mxbai-embed-large) not found. Check available models with 'ollama list'.. Ensure 'ollama run phi-3' and 'ollama run mxbai-embed-large' are active.
+2025-07-12 14:32:16,341 ERROR: Failed to generate embeddings
+2025-07-12 14:32:16,342 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 14:37:08,736 INFO: Embeddings.py test starting.
+2025-07-12 14:37:08,750 ERROR: Ollama server or models unavailable: Required models (phi-3 and mxbai-embed-large) not found. Check available models with 'ollama list'.. Ensure 'ollama run phi-3' and 'ollama run mxbai-embed-large' are active.
+2025-07-12 14:37:08,750 ERROR: Failed to generate embeddings
+2025-07-12 14:37:08,750 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 14:37:08,911 DEBUG: Database initialized in routes.py
+2025-07-12 14:37:34,365 INFO: Embeddings.py test starting.
+2025-07-12 14:37:34,994 DEBUG: Database initialized in routes.py
+2025-07-12 14:37:36,431 ERROR: Ollama server or models unavailable: Required models (phi-3 and mxbai-embed-large) not found. Check available models with 'http://localhost:11434/api/tags'.. Ensure 'ollama serve' is running and models are pulled.
+2025-07-12 14:37:36,442 ERROR: Failed to generate embeddings
+2025-07-12 14:37:36,442 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 14:39:39,045 DEBUG: Database initialized in routes.py
+2025-07-12 14:40:43,092 DEBUG: Database initialized in routes.py
+2025-07-12 14:41:17,497 DEBUG: Database initialized in routes.py
+2025-07-12 14:41:17,640 INFO: Embeddings.py test starting.
+2025-07-12 14:41:19,703 ERROR: Ollama server or models unavailable: Required models (phi3 and mxbai-embed-large) not found. Check available models with 'http://localhost:11434/api/tags'.. Ensure 'ollama serve' is running and models are pulled.
+2025-07-12 14:41:19,703 ERROR: Failed to generate embeddings
+2025-07-12 14:41:19,703 INFO: Embeddings.py test completed. Check app.log and data/embeddings/ for results.
+2025-07-12 14:44:51,053 DEBUG: Database initialized in routes.py
+2025-07-12 14:44:56,171 INFO: === Embeddings.py test starting ===
+2025-07-12 14:44:56,171 INFO: Checking Ollama availability...
+2025-07-12 14:44:56,769 DEBUG: Database initialized in routes.py
+2025-07-12 14:44:58,217 INFO: Available models: ['phi3', 'mxbai-embed-large', 'nomic-embed-text']
+2025-07-12 14:44:58,218 INFO: Ollama server and required models are accessible
+2025-07-12 14:44:58,224 INFO: Found 48 skills in database: ['Python', 'Python', 'Python', 'Python', 'Python', 'Python', 'Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'Python', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'GO', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models', 'Java', 'Sql', 'Html', 'Css', 'Javascript']
+2025-07-12 14:44:58,224 INFO: Checking Ollama availability...
+2025-07-12 14:45:00,277 INFO: Available models: ['phi3', 'mxbai-embed-large', 'nomic-embed-text']
+2025-07-12 14:45:00,277 INFO: Ollama server and required models are accessible
+2025-07-12 14:45:00,278 INFO: Generating embeddings for 48 skills...
+2025-07-12 14:45:00,278 INFO: Processing skill 1/48: Python
+2025-07-12 14:45:00,278 DEBUG: Generating description for skill: Python
+2025-07-12 14:45:12,012 DEBUG: Generated description for Python: Python is a high-level programming language known for being easy to learn and understand due to its ...
+2025-07-12 14:45:15,699 DEBUG: Successfully generated embedding for Python (dimension: 1024)
+2025-07-12 14:45:15,699 INFO: Processing skill 2/48: Python
+2025-07-12 14:45:15,699 DEBUG: Generating description for skill: Python
+2025-07-12 14:45:31,319 DEBUG: Generated description for Python: Python is a high-level programming language known for its simplicity and readability. It emphasizes ...
+2025-07-12 14:45:35,008 DEBUG: Successfully generated embedding for Python (dimension: 1024)
+2025-07-12 14:45:35,008 INFO: Processing skill 3/48: Python
+2025-07-12 14:45:35,008 DEBUG: Generating description for skill: Python
+2025-07-12 14:45:51,095 DEBUG: Generated description for Python: Python is a high-level programming language known for being easy to learn yet powerful enough to han...
+2025-07-12 14:45:54,765 DEBUG: Successfully generated embedding for Python (dimension: 1024)
+2025-07-12 14:45:54,765 INFO: Processing skill 4/48: Python
+2025-07-12 14:45:54,765 DEBUG: Generating description for skill: Python
+2025-07-12 14:46:11,011 DEBUG: Generated description for Python: Python is a high-level programming language that offers simplicity, readability, and efficiency in c...
+2025-07-12 14:46:14,646 DEBUG: Successfully generated embedding for Python (dimension: 1024)
+2025-07-12 14:46:14,647 INFO: Processing skill 5/48: Python
+2025-07-12 14:46:14,647 DEBUG: Generating description for skill: Python
+2025-07-12 14:46:31,879 DEBUG: Generated description for Python: Python is a high-level programming language that emphasizes code readability through significant whi...
+2025-07-12 14:46:35,824 DEBUG: Successfully generated embedding for Python (dimension: 1024)
+2025-07-12 14:46:35,824 INFO: Processing skill 6/48: Python
+2025-07-12 14:46:35,824 DEBUG: Generating description for skill: Python
+2025-07-12 14:46:52,250 DEBUG: Generated description for Python: Python is a high-level, interpreted programming language known for simplicity in syntax, readability...
+2025-07-12 14:46:55,866 DEBUG: Successfully generated embedding for Python (dimension: 1024)
+2025-07-12 14:46:55,866 INFO: Processing skill 7/48: Python
+2025-07-12 14:46:55,866 DEBUG: Generating description for skill: Python
+2025-07-12 14:47:12,439 DEBUG: Generated description for Python: Python is a high-level programming language that emphasizes code readability through English keyword...
+2025-07-12 14:47:16,382 DEBUG: Successfully generated embedding for Python (dimension: 1024)
+2025-07-12 14:47:16,382 INFO: Processing skill 8/48: MATLAB
+2025-07-12 14:47:16,382 DEBUG: Generating description for skill: MATLAB
+2025-07-12 14:47:33,996 DEBUG: Generated description for MATLAB: MATLAB is a high-performance language for technical computing that integrates computation, visualiza...
+2025-07-12 14:47:37,934 DEBUG: Successfully generated embedding for MATLAB (dimension: 1024)
+2025-07-12 14:47:37,935 INFO: Processing skill 9/48: TensorFlow
+2025-07-12 14:47:37,935 DEBUG: Generating description for skill: TensorFlow
+2025-07-12 14:47:54,577 DEBUG: Generated description for TensorFlow: TensorFlow is an open-source software library for dataflow programming across a range of tasks. It's...
+2025-07-12 14:47:58,481 DEBUG: Successfully generated embedding for TensorFlow (dimension: 1024)
+2025-07-12 14:47:58,481 INFO: Processing skill 10/48: LLMs
+2025-07-12 14:47:58,481 DEBUG: Generating description for skill: LLMs
+2025-07-12 14:48:14,455 DEBUG: Generated description for LLMs: LLM stands for Large Language Models. This is an advanced AI-based tool that focuses on understandin...
+2025-07-12 14:48:18,114 DEBUG: Successfully generated embedding for LLMs (dimension: 1024)
+2025-07-12 14:48:18,114 INFO: Processing skill 11/48: Java
+2025-07-12 14:48:18,114 DEBUG: Generating description for skill: Java
+2025-07-12 14:48:34,015 DEBUG: Generated description for Java: Java is a versatile programming language that enables developers to create applications across vario...
+2025-07-12 14:48:37,649 DEBUG: Successfully generated embedding for Java (dimension: 1024)
+2025-07-12 14:48:37,649 INFO: Processing skill 12/48: Generative AI
+2025-07-12 14:48:37,649 DEBUG: Generating description for skill: Generative AI
+2025-07-12 14:48:53,804 DEBUG: Generated description for Generative AI: Generative AI is an advanced technology that allows machines to create new content based on existing...
+2025-07-12 14:48:57,435 DEBUG: Successfully generated embedding for Generative AI (dimension: 1024)
+2025-07-12 14:48:57,435 INFO: Processing skill 13/48: Time Series
+2025-07-12 14:48:57,435 DEBUG: Generating description for skill: Time Series
+2025-07-12 14:49:14,089 DEBUG: Generated description for Time Series: Time series is an important analytical skill that deals with data collected over time to understand ...
+2025-07-12 14:49:17,721 DEBUG: Successfully generated embedding for Time Series (dimension: 1024)
+2025-07-12 14:49:17,721 INFO: Processing skill 14/48: CSS
+2025-07-12 14:49:17,721 DEBUG: Generating description for skill: CSS
+2025-07-12 14:49:34,245 DEBUG: Generated description for CSS: Cascading Style Sheets (CSS) is an essential web development skill that focuses on defining the visu...
+2025-07-12 14:49:38,151 DEBUG: Successfully generated embedding for CSS (dimension: 1024)
+2025-07-12 14:49:38,151 INFO: Processing skill 15/48: MLflow
+2025-07-12 14:49:38,151 DEBUG: Generating description for skill: MLflow
+2025-07-12 14:49:54,755 DEBUG: Generated description for MLflow: MLFlow is an open-source platform for experimentation, development, and deployment of machine learni...
+2025-07-12 14:49:58,685 DEBUG: Successfully generated embedding for MLflow (dimension: 1024)
+2025-07-12 14:49:58,686 INFO: Processing skill 16/48: Javascript
+2025-07-12 14:49:58,686 DEBUG: Generating description for skill: Javascript
+2025-07-12 14:50:15,924 DEBUG: Generated description for Javascript: Javascript is an interpreted scripting language used primarily for enhancing web pages created with ...
+2025-07-12 14:50:19,867 DEBUG: Successfully generated embedding for Javascript (dimension: 1024)
+2025-07-12 14:50:19,867 INFO: Processing skill 17/48: Reinforcement Learning
+2025-07-12 14:50:19,867 DEBUG: Generating description for skill: Reinforcement Learning
+2025-07-12 14:50:36,573 DEBUG: Generated description for Reinforcement Learning: Reinforcement learning (RL) is an area within machine intelligence that deals with how intelligent a...
+2025-07-12 14:50:40,242 DEBUG: Successfully generated embedding for Reinforcement Learning (dimension: 1024)
+2025-07-12 14:50:40,242 INFO: Processing skill 18/48: Transformers
+2025-07-12 14:50:40,242 DEBUG: Generating description for skill: Transformers
+2025-07-12 14:50:56,177 DEBUG: Generated description for Transformers: A transformer is an electrical device that transfers electrical energy between two or more circuits ...
+2025-07-12 14:50:59,815 DEBUG: Successfully generated embedding for Transformers (dimension: 1024)
+2025-07-12 14:50:59,815 INFO: Processing skill 19/48: Keras
+2025-07-12 14:50:59,816 DEBUG: Generating description for skill: Keras
+2025-07-12 14:51:17,253 DEBUG: Generated description for Keras: Keras is an open-source deep learning API developed by François Chollet in TensorFlow. It provides d...
+2025-07-12 14:51:20,919 DEBUG: Successfully generated embedding for Keras (dimension: 1024)
+2025-07-12 14:51:20,919 INFO: Processing skill 20/48: Docker
+2025-07-12 14:51:20,919 DEBUG: Generating description for skill: Docker
+2025-07-12 14:51:37,063 DEBUG: Generated description for Docker: Docker is an open-source platform that simplifies and speeds up software development by using contai...
+2025-07-12 14:51:40,692 DEBUG: Successfully generated embedding for Docker (dimension: 1024)
+2025-07-12 14:51:40,693 INFO: Processing skill 21/48: Python
+2025-07-12 14:51:40,693 DEBUG: Generating description for skill: Python
+2025-07-12 14:52:38,749 DEBUG: Database initialized in routes.py
+2025-07-12 14:52:41,546 DEBUG: Database initialized in routes.py
+2025-07-12 14:52:41,790 INFO: === Optimized Embeddings Test ===
+2025-07-12 14:52:43,898 INFO: Total: 48 skills, Unique: 35 skills
+2025-07-12 14:52:43,898 INFO: Processing skills: ['Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models']
+2025-07-12 14:52:45,243 DEBUG: Database initialized in routes.py
+2025-07-12 14:52:45,947 INFO: Generating descriptions for 35 skills in batches...
+2025-07-12 14:52:45,947 INFO: Generating descriptions for batch 1/7
+2025-07-12 14:53:03,020 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 14:53:23,998 INFO: Generating descriptions for batch 2/7
+2025-07-12 14:53:41,046 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 14:54:02,653 INFO: Generating descriptions for batch 3/7
+2025-07-12 14:54:18,932 DEBUG: Parsed 4 descriptions from batch
+2025-07-12 14:54:18,932 INFO: Generating descriptions for batch 4/7
+2025-07-12 14:54:33,863 DEBUG: Parsed 4 descriptions from batch
+2025-07-12 14:54:33,863 INFO: Generating descriptions for batch 5/7
+2025-07-12 14:54:50,566 DEBUG: Parsed 4 descriptions from batch
+2025-07-12 14:54:50,566 INFO: Generating descriptions for batch 6/7
+2025-07-12 14:55:07,598 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 14:55:15,524 DEBUG: Database initialized in routes.py
+2025-07-12 15:01:33,719 INFO: === Optimized Embeddings Test ===
+2025-07-12 15:01:34,276 DEBUG: Database initialized in routes.py
+2025-07-12 15:01:35,778 INFO: Total: 48 skills, Unique: 35 skills
+2025-07-12 15:01:35,779 INFO: Processing skills: ['Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models']
+2025-07-12 15:01:37,822 INFO: Generating descriptions for 35 skills in batches...
+2025-07-12 15:01:37,822 INFO: Generating descriptions for batch 1/12
+2025-07-12 15:01:51,767 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:01:51,767 INFO: Generating descriptions for batch 2/12
+2025-07-12 15:02:03,464 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:02:03,464 INFO: Generating descriptions for batch 3/12
+2025-07-12 15:02:14,920 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:02:14,920 INFO: Generating descriptions for batch 4/12
+2025-07-12 15:02:24,884 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:02:24,884 INFO: Generating descriptions for batch 5/12
+2025-07-12 15:02:33,253 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:02:33,253 INFO: Generating descriptions for batch 6/12
+2025-07-12 15:02:43,992 DEBUG: Parsed 2 descriptions from batch
+2025-07-12 15:02:43,992 INFO: Generating descriptions for batch 7/12
+2025-07-12 15:02:52,474 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:02:52,474 INFO: Generating descriptions for batch 8/12
+2025-07-12 15:03:01,296 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:03:01,297 INFO: Generating descriptions for batch 9/12
+2025-07-12 15:03:11,000 DEBUG: Parsed 1 descriptions from batch
+2025-07-12 15:03:11,000 INFO: Generating descriptions for batch 10/12
+2025-07-12 15:03:18,869 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:03:18,869 INFO: Generating descriptions for batch 11/12
+2025-07-12 15:03:28,923 DEBUG: Parsed 3 descriptions from batch
+2025-07-12 15:03:28,923 INFO: Generating descriptions for batch 12/12
+2025-07-12 15:03:35,781 DEBUG: Parsed 2 descriptions from batch
+2025-07-12 15:03:35,781 WARNING: Missing description for Google Cloud, generating individually
+2025-07-12 15:03:39,850 WARNING: Missing description for HTML, generating individually
+2025-07-12 15:03:44,213 WARNING: Missing description for CUDA, generating individually
+2025-07-12 15:03:48,568 INFO: Generating embeddings using 3 workers...
+2025-07-12 15:04:16,114 INFO: Building FAISS index: 35 vectors, 1024D
+2025-07-12 15:04:16,132 INFO: Total processing time: 160.36 seconds
+2025-07-12 15:04:16,133 INFO: Querying: Python
+2025-07-12 15:04:26,185 WARNING: Single description generation failed for Python: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=8)
+2025-07-12 15:04:28,236 INFO: Generating descriptions for 1 skills in batches...
+2025-07-12 15:04:28,236 INFO: Generating descriptions for batch 1/1
+2025-07-12 15:04:36,964 DEBUG: Parsed 1 descriptions from batch
+2025-07-12 15:04:36,965 INFO: Generating embeddings using 3 workers...
+2025-07-12 15:04:40,951 INFO:   1. Python (0.9376)
+2025-07-12 15:04:40,951 INFO:   2. Java (0.8127)
+2025-07-12 15:04:40,951 INFO:   3. Javascript (0.7981)
+2025-07-12 15:04:40,951 INFO: === Test Complete ===
+2025-07-12 15:07:02,555 INFO: === Optimized Embeddings Test ===
+2025-07-12 15:07:02,657 DEBUG: Database initialized in routes.py
+2025-07-12 15:07:04,613 INFO: [OK] Ollama server and models available
+2025-07-12 15:07:04,619 INFO: Total: 48 skills, Unique: 35 skills
+2025-07-12 15:07:04,619 INFO: Processing skills: ['Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models']
+2025-07-12 15:07:06,661 INFO: [OK] Ollama server and models available
+2025-07-12 15:07:06,661 INFO: Generating descriptions for 35 skills in batches...
+2025-07-12 15:07:06,661 INFO: Generating descriptions for batch 1/7
+2025-07-12 15:07:23,702 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 15:07:44,567 INFO: Generating descriptions for batch 2/7
+2025-07-12 15:08:00,788 DEBUG: Parsed 5 descriptions from batch
+2025-07-12 15:08:00,788 INFO: Generating descriptions for batch 3/7
+2025-07-12 15:08:15,993 DEBUG: Parsed 5 descriptions from batch
+2025-07-12 15:08:15,993 INFO: Generating descriptions for batch 4/7
+2025-07-12 15:08:31,377 DEBUG: Parsed 4 descriptions from batch
+2025-07-12 15:08:31,377 INFO: Generating descriptions for batch 5/7
+2025-07-12 15:08:46,712 DEBUG: Parsed 4 descriptions from batch
+2025-07-12 15:08:46,712 INFO: Generating descriptions for batch 6/7
+2025-07-12 15:09:01,906 DEBUG: Parsed 0 descriptions from batch
+2025-07-12 15:09:01,906 INFO: Generating descriptions for batch 7/7
+2025-07-12 15:09:17,383 DEBUG: Parsed 5 descriptions from batch
+2025-07-12 15:09:17,383 WARNING: Missing description for Google Cloud, generating individually
+2025-07-12 15:09:21,721 WARNING: Missing description for R, generating individually
+2025-07-12 15:09:25,855 WARNING: Missing description for HTML, generating individually
+2025-07-12 15:09:29,906 WARNING: Missing description for CUDA, generating individually
+2025-07-12 15:09:34,291 WARNING: Missing description for FastAPI, generating individually
+2025-07-12 15:09:38,598 WARNING: Missing description for Kafka, generating individually
+2025-07-12 15:09:42,962 WARNING: Missing description for Multi-Modal transformers, generating individually
+2025-07-12 15:09:46,952 INFO: [OK] Description generation completed in 160.29 seconds
+2025-07-12 15:09:46,952 INFO: Generating embeddings using 3 workers...
+2025-07-12 15:09:50,885 INFO: [OK] Embedding 1/35: Python
+2025-07-12 15:09:50,927 INFO: [OK] Embedding 2/35: TensorFlow
+2025-07-12 15:09:50,961 INFO: [OK] Embedding 3/35: MATLAB
+2025-07-12 15:09:52,975 INFO: [OK] Embedding 4/35: LLMs
+2025-07-12 15:09:53,004 INFO: [OK] Embedding 5/35: Java
+2025-07-12 15:09:53,049 INFO: [OK] Embedding 6/35: Generative AI
+2025-07-12 15:09:55,132 INFO: [OK] Embedding 7/35: Time Series
+2025-07-12 15:09:55,156 INFO: [OK] Embedding 8/35: CSS
+2025-07-12 15:09:55,185 INFO: [OK] Embedding 9/35: MLflow
+2025-07-12 15:09:57,302 INFO: [OK] Embedding 10/35: Javascript
+2025-07-12 15:09:57,380 INFO: [OK] Embedding 11/35: Reinforcement Learning
+2025-07-12 15:09:57,440 INFO: [OK] Embedding 12/35: Transformers
+2025-07-12 15:09:59,444 INFO: [OK] Embedding 13/35: Keras
+2025-07-12 15:09:59,524 INFO: [OK] Embedding 14/35: Docker
+2025-07-12 15:09:59,600 INFO: [OK] Embedding 15/35: PyTorch
+2025-07-12 15:10:01,571 INFO: [OK] Embedding 16/35: Flask
+2025-07-12 15:10:01,653 INFO: [OK] Embedding 17/35: Go
+2025-07-12 15:10:01,726 INFO: [OK] Embedding 18/35: Google Cloud
+2025-07-12 15:10:03,734 INFO: [OK] Embedding 19/35: ReactJS
+2025-07-12 15:10:03,828 INFO: [OK] Embedding 20/35: SQL
+2025-07-12 15:10:03,857 INFO: [OK] Embedding 21/35: NLP
+2025-07-12 15:10:05,874 INFO: [OK] Embedding 22/35: Kubernetes
+2025-07-12 15:10:05,983 INFO: [OK] Embedding 23/35: CI/CD
+2025-07-12 15:10:06,041 INFO: [OK] Embedding 24/35: Sphinx
+2025-07-12 15:10:08,013 INFO: [OK] Embedding 25/35: R
+2025-07-12 15:10:08,123 INFO: [OK] Embedding 26/35: HTML
+2025-07-12 15:10:08,204 INFO: [OK] Embedding 27/35: CUDA
+2025-07-12 15:10:10,145 INFO: [OK] Embedding 28/35: FastAPI
+2025-07-12 15:10:10,260 INFO: [OK] Embedding 29/35: Kafka
+2025-07-12 15:10:10,335 INFO: [OK] Embedding 30/35: Multi-Modal transformers
+2025-07-12 15:10:12,322 INFO: [OK] Embedding 31/35: Latex
+2025-07-12 15:10:12,435 INFO: [OK] Embedding 32/35: XGBoost
+2025-07-12 15:10:12,463 INFO: [OK] Embedding 33/35: Git
+2025-07-12 15:10:14,470 INFO: [OK] Embedding 34/35: Computer Vision
+2025-07-12 15:10:14,578 INFO: [OK] Embedding 35/35: foundational Models
+2025-07-12 15:10:14,580 INFO: [OK] Generated 35 embeddings in 27.63 seconds
+2025-07-12 15:10:14,580 INFO: Building FAISS index: 35 vectors, 1024D
+2025-07-12 15:10:14,585 INFO: [OK] FAISS index saved to D:\personal_projects\skill_swap\skill_swapp\app\..\data\embeddings\skill_index.faiss
+2025-07-12 15:10:14,585 INFO: [OK] Complete pipeline finished in 189.97 seconds
+2025-07-12 15:10:14,585 INFO: [OK] Skill list saved to D:\personal_projects\skill_swap\skill_swapp\app\..\data\embeddings\skills.json
+2025-07-12 15:10:14,586 INFO: Total processing time: 189.97 seconds
+2025-07-12 15:10:14,586 INFO: [OK] Pipeline successful!
+2025-07-12 15:10:14,586 INFO: Querying: Python
+2025-07-12 15:10:24,646 WARNING: Single description generation failed for Python: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=8)
+2025-07-12 15:10:26,695 INFO: [OK] Ollama server and models available
+2025-07-12 15:10:26,695 INFO: Generating descriptions for 1 skills in batches...
+2025-07-12 15:10:26,696 INFO: Generating descriptions for batch 1/1
+2025-07-12 15:10:33,179 DEBUG: Parsed 1 descriptions from batch
+2025-07-12 15:10:33,179 INFO: [OK] Description generation completed in 6.48 seconds
+2025-07-12 15:10:33,179 INFO: Generating embeddings using 3 workers...
+2025-07-12 15:10:36,866 INFO: [OK] Embedding 1/1: Python
+2025-07-12 15:10:36,866 INFO: [OK] Generated 1 embeddings in 3.69 seconds
+2025-07-12 15:10:36,868 INFO: [OK] Query test successful! Similar to 'Python':
+2025-07-12 15:10:36,868 INFO:   1. Python (0.9335)
+2025-07-12 15:10:36,868 INFO:   2. Kubernetes (0.7688)
+2025-07-12 15:10:36,868 INFO:   3. Flask (0.7210)
+2025-07-12 15:10:36,868 INFO: === Test Complete ===
+2025-07-12 15:21:55,089 DEBUG: Database initialized in routes.py

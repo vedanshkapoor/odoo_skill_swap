@@ -4,6 +4,9 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from models import db, User, Skill, Swap, Feedback
 
+# Import embedding update
+from app.embeddings import update_embeddings_optimized
+
 # Configure logging with explicit file path and handler
 log_file = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'app.log'))
 file_handler = logging.FileHandler(log_file)
@@ -14,7 +17,7 @@ logger.addHandler(file_handler)
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app)  # Enable CORS for Streamlit frontend
+CORS(app)
 base_dir = os.path.dirname(os.path.abspath(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{os.path.join(base_dir, "..", "data", "skill_swap.db")}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -54,14 +57,21 @@ def add_skills():
         if not user_id or not skill_offered:
             logger.error("Missing user_id or skill_offered")
             return jsonify({"error": "User ID and skill offered required"}), 400
+
         user = User.query.get(user_id)
         if not user:
             logger.error(f"User not found: {user_id}")
             return jsonify({"error": "User not found"}), 404
+
         skill = Skill(user_id=user_id, skill_offered=skill_offered, skill_wanted=skill_wanted)
         db.session.add(skill)
         db.session.commit()
         logger.info(f"Added skill for user {user_id}: {skill_offered}")
+
+        # ✅ Update embeddings
+        update_embeddings_optimized()
+        logger.info("[OK] Embeddings updated after adding skill")
+
         return jsonify({"message": "Skill added", "skill_id": skill.id}), 201
     except Exception as e:
         logger.error(f"Skills addition error: {str(e)}")

@@ -113,3 +113,39 @@
 2025-07-12 12:36:23,083 DEBUG: http://127.0.0.1:5001 "POST /feedback HTTP/1.1" 201 54
 2025-07-12 12:36:23,083 INFO: Feedback response: 201, {'feedback_id': 5, 'message': 'Feedback added'}
 2025-07-12 12:36:23,083 INFO: Test completed. Check test_routes.log and app.log
+2025-07-12 13:06:13,542 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 13:06:13,595 DEBUG: http://127.0.0.1:5001 "POST /register HTTP/1.1" 201 56
+2025-07-12 13:06:13,597 INFO: Register response: 201, {'id': 6, 'location': 'Delhi', 'name': 'Alice'}
+2025-07-12 13:06:13,599 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:06:13,617 DEBUG: http://127.0.0.1:5001 "POST /skills HTTP/1.1" 201 48
+2025-07-12 13:06:13,617 INFO: Skills response: 201, {'message': 'Skill added', 'skill_id': 6}
+2025-07-12 13:06:13,618 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:06:13,647 DEBUG: http://127.0.0.1:5001 "GET /swaps?user_id=6 HTTP/1.1" 200 3
+2025-07-12 13:06:13,647 INFO: Swaps response: 200, []
+2025-07-12 13:06:13,649 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:06:13,656 DEBUG: http://127.0.0.1:5001 "POST /swaps HTTP/1.1" 201 77
+2025-07-12 13:06:13,657 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:06:13,661 DEBUG: http://127.0.0.1:5001 "GET /swaps/6 HTTP/1.1" 200 77
+2025-07-12 13:06:13,661 INFO: Swap response: 200, {'from_user_id': 6, 'id': 6, 'status': 'pending', 'to_user_id': 6}
+2025-07-12 13:06:13,662 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:06:13,680 DEBUG: http://127.0.0.1:5001 "POST /feedback HTTP/1.1" 201 54
+2025-07-12 13:06:13,680 INFO: Feedback response: 201, {'feedback_id': 6, 'message': 'Feedback added'}
+2025-07-12 13:06:13,681 INFO: Test completed. Check test_routes.log and app.log
+2025-07-12 13:24:40,152 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 13:24:40,189 DEBUG: http://127.0.0.1:5001 "POST /register HTTP/1.1" 201 56
+2025-07-12 13:24:40,189 INFO: Register response: 201, {'id': 7, 'location': 'Delhi', 'name': 'Alice'}
+2025-07-12 13:24:40,190 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:24:40,220 DEBUG: http://127.0.0.1:5001 "POST /skills HTTP/1.1" 201 48
+2025-07-12 13:24:40,221 INFO: Skills response: 201, {'message': 'Skill added', 'skill_id': 7}
+2025-07-12 13:24:40,222 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:24:40,245 DEBUG: http://127.0.0.1:5001 "GET /swaps?user_id=7 HTTP/1.1" 200 3
+2025-07-12 13:24:40,245 INFO: Swaps response: 200, []
+2025-07-12 13:24:40,246 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:24:40,256 DEBUG: http://127.0.0.1:5001 "POST /swaps HTTP/1.1" 201 77
+2025-07-12 13:24:40,257 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:24:40,274 DEBUG: http://127.0.0.1:5001 "GET /swaps/7 HTTP/1.1" 200 77
+2025-07-12 13:24:40,274 INFO: Swap response: 200, {'from_user_id': 7, 'id': 7, 'status': 'pending', 'to_user_id': 7}
+2025-07-12 13:24:40,275 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 13:24:40,283 DEBUG: http://127.0.0.1:5001 "POST /feedback HTTP/1.1" 201 54
+2025-07-12 13:24:40,283 INFO: Feedback response: 201, {'feedback_id': 7, 'message': 'Feedback added'}
+2025-07-12 13:24:40,283 INFO: Test completed. Check test_routes.log and app.log

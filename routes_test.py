@@ -68,7 +68,7 @@ if __name__ == "__main__":
             if response.status_code == 201:
                 swap_id = response.json().get('id')
                 test_get_swap(swap_id)
-                test_add_feedback(swap_id)  # Use dynamic swap_id
+                test_add_feedback(swap_id)
             else:
                 logger.error(f"Swap creation failed: {response.json()}")
         except requests.exceptions.RequestException as e:
