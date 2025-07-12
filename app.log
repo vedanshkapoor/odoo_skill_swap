@@ -391,3 +391,158 @@
 2025-07-12 15:10:36,868 INFO:   3. Flask (0.7210)
 2025-07-12 15:10:36,868 INFO: === Test Complete ===
 2025-07-12 15:21:55,089 DEBUG: Database initialized in routes.py
+2025-07-12 15:48:58,978 DEBUG: Database initialized in routes.py
+2025-07-12 15:48:59,802 DEBUG: Database initialized in routes.py
+2025-07-12 15:52:24,283 DEBUG: Database initialized in routes.py
+2025-07-12 15:52:46,851 DEBUG: Database initialized in routes.py
+2025-07-12 15:54:14,123 DEBUG: Database initialized in routes.py
+2025-07-12 15:54:59,157 INFO: Registered user: <User(id=8, name=vedansh, location=jaipur)>
+2025-07-12 15:56:16,019 INFO: Added skill for user 8: Machine Learning
+2025-07-12 15:56:16,024 INFO: Total: 49 skills, Unique: 36 skills
+2025-07-12 15:56:16,025 INFO: Processing skills: ['Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models', 'Machine Learning']
+2025-07-12 15:56:18,104 INFO: [OK] Ollama server and models available
+2025-07-12 15:56:18,105 INFO: Generating descriptions for 36 skills in batches...
+2025-07-12 15:56:18,106 INFO: Generating descriptions for batch 1/8
+2025-07-12 15:56:35,148 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 15:56:57,063 INFO: Generating descriptions for batch 2/8
+2025-07-12 15:57:14,127 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 15:57:35,897 INFO: Generating descriptions for batch 3/8
+2025-07-12 15:57:52,294 DEBUG: Parsed 5 descriptions from batch
+2025-07-12 15:57:52,294 INFO: Generating descriptions for batch 4/8
+2025-07-12 15:58:06,171 DEBUG: Parsed 4 descriptions from batch
+2025-07-12 15:58:06,171 INFO: Generating descriptions for batch 5/8
+2025-07-12 15:58:22,859 DEBUG: Parsed 4 descriptions from batch
+2025-07-12 15:58:22,859 INFO: Generating descriptions for batch 6/8
+2025-07-12 15:58:38,999 DEBUG: Parsed 0 descriptions from batch
+2025-07-12 15:58:38,999 INFO: Generating descriptions for batch 7/8
+2025-07-12 15:58:55,417 DEBUG: Parsed 5 descriptions from batch
+2025-07-12 15:58:55,417 INFO: Generating descriptions for batch 8/8
+2025-07-12 15:59:11,580 DEBUG: Parsed 1 descriptions from batch
+2025-07-12 15:59:11,580 WARNING: Missing description for Google Cloud, generating individually
+2025-07-12 15:59:15,840 WARNING: Missing description for R, generating individually
+2025-07-12 15:59:19,969 WARNING: Missing description for HTML, generating individually
+2025-07-12 15:59:24,471 WARNING: Missing description for CUDA, generating individually
+2025-07-12 15:59:28,866 WARNING: Missing description for FastAPI, generating individually
+2025-07-12 15:59:33,280 WARNING: Missing description for Kafka, generating individually
+2025-07-12 15:59:38,101 WARNING: Missing description for Multi-Modal transformers, generating individually
+2025-07-12 15:59:42,686 INFO: [OK] Description generation completed in 204.58 seconds
+2025-07-12 15:59:42,686 INFO: Generating embeddings using 3 workers...
+2025-07-12 15:59:46,615 INFO: [OK] Embedding 1/36: MATLAB
+2025-07-12 15:59:46,655 INFO: [OK] Embedding 2/36: TensorFlow
+2025-07-12 15:59:46,697 INFO: [OK] Embedding 3/36: Python
+2025-07-12 15:59:48,725 INFO: [OK] Embedding 4/36: LLMs
+2025-07-12 15:59:48,758 INFO: [OK] Embedding 5/36: Java
+2025-07-12 15:59:48,796 INFO: [OK] Embedding 6/36: Generative AI
+2025-07-12 15:59:50,780 INFO: [OK] Embedding 7/36: Time Series
+2025-07-12 15:59:50,823 INFO: [OK] Embedding 8/36: CSS
+2025-07-12 15:59:50,880 INFO: [OK] Embedding 9/36: MLflow
+2025-07-12 15:59:52,918 INFO: [OK] Embedding 10/36: Javascript
+2025-07-12 15:59:52,991 INFO: [OK] Embedding 11/36: Reinforcement Learning
+2025-07-12 15:59:53,067 INFO: [OK] Embedding 12/36: Transformers
+2025-07-12 15:59:55,133 INFO: [OK] Embedding 13/36: Keras
+2025-07-12 15:59:55,268 INFO: [OK] Embedding 14/36: Docker
+2025-07-12 15:59:55,329 INFO: [OK] Embedding 15/36: PyTorch
+2025-07-12 15:59:57,283 INFO: [OK] Embedding 16/36: Flask
+2025-07-12 15:59:57,413 INFO: [OK] Embedding 17/36: Go
+2025-07-12 15:59:57,501 INFO: [OK] Embedding 18/36: Google Cloud
+2025-07-12 15:59:59,423 INFO: [OK] Embedding 19/36: ReactJS
+2025-07-12 15:59:59,531 INFO: [OK] Embedding 20/36: SQL
+2025-07-12 15:59:59,637 INFO: [OK] Embedding 21/36: NLP
+2025-07-12 16:00:01,599 INFO: [OK] Embedding 22/36: Kubernetes
+2025-07-12 16:00:01,714 INFO: [OK] Embedding 23/36: CI/CD
+2025-07-12 16:00:01,758 INFO: [OK] Embedding 24/36: Sphinx
+2025-07-12 16:00:03,711 INFO: [OK] Embedding 25/36: R
+2025-07-12 16:00:03,841 INFO: [OK] Embedding 26/36: HTML
+2025-07-12 16:00:03,913 INFO: [OK] Embedding 27/36: CUDA
+2025-07-12 16:00:05,910 INFO: [OK] Embedding 28/36: FastAPI
+2025-07-12 16:00:06,042 INFO: [OK] Embedding 29/36: Kafka
+2025-07-12 16:00:06,121 INFO: [OK] Embedding 30/36: Multi-Modal transformers
+2025-07-12 16:00:08,066 INFO: [OK] Embedding 31/36: Latex
+2025-07-12 16:00:08,176 INFO: [OK] Embedding 32/36: XGBoost
+2025-07-12 16:00:08,264 INFO: [OK] Embedding 33/36: Git
+2025-07-12 16:00:10,196 INFO: [OK] Embedding 34/36: Computer Vision
+2025-07-12 16:00:10,327 INFO: [OK] Embedding 35/36: foundational Models
+2025-07-12 16:00:10,403 INFO: [OK] Embedding 36/36: Machine Learning
+2025-07-12 16:00:10,405 INFO: [OK] Generated 36 embeddings in 27.72 seconds
+2025-07-12 16:00:10,406 INFO: Building FAISS index: 36 vectors, 1024D
+2025-07-12 16:00:10,422 INFO: [OK] FAISS index saved to D:\personal_projects\skill_swap\skill_swapp\app\..\data\embeddings\skill_index.faiss
+2025-07-12 16:00:10,423 INFO: [OK] Complete pipeline finished in 234.40 seconds
+2025-07-12 16:00:10,423 INFO: [OK] Skill list saved to D:\personal_projects\skill_swap\skill_swapp\app\..\data\embeddings\skills.json
+2025-07-12 16:00:10,423 INFO: [OK] Embeddings updated after adding skill
+2025-07-12 16:01:07,808 INFO: Retrieved swaps for user 8
+2025-07-12 16:01:09,958 INFO: Retrieved swaps for user 8
+2025-07-12 16:01:23,371 ERROR: Missing user_id for swaps
+2025-07-12 16:01:43,808 INFO: Retrieved swaps for user 3
+2025-07-12 16:02:40,108 INFO: Retrieved swaps for user 5
+2025-07-12 16:02:49,461 INFO: Retrieved swaps for user 8
+2025-07-12 16:02:54,725 INFO: Retrieved swaps for user 6
+2025-07-12 16:03:09,358 INFO: Retrieved swaps for user 3
+2025-07-12 16:04:36,844 INFO: Registered user: <User(id=9, name=vaideeka, location=lucknow)>
+2025-07-12 16:17:52,075 INFO: Registered user: <User(id=10, name=ved, location=mumbai)>
+2025-07-12 16:19:02,865 INFO: Added skill for user 10: machine learning
+2025-07-12 16:19:02,866 INFO: Total: 50 skills, Unique: 36 skills
+2025-07-12 16:19:02,868 INFO: Processing skills: ['Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models', 'Machine Learning']
+2025-07-12 16:19:04,912 INFO: [OK] Ollama server and models available
+2025-07-12 16:19:04,913 INFO: Added skill for user 10: machine learning
+2025-07-12 16:19:04,913 INFO: Generating descriptions for 36 skills in batches...
+2025-07-12 16:19:04,914 INFO: Generating descriptions for batch 1/8
+2025-07-12 16:19:04,919 INFO: Total: 51 skills, Unique: 36 skills
+2025-07-12 16:19:04,919 INFO: Processing skills: ['Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models', 'Machine Learning']
+2025-07-12 16:19:06,968 INFO: [OK] Ollama server and models available
+2025-07-12 16:19:06,968 INFO: Generating descriptions for 36 skills in batches...
+2025-07-12 16:19:06,969 INFO: Generating descriptions for batch 1/8
+2025-07-12 16:19:21,975 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:19:24,034 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:19:52,605 INFO: Retrieved swaps for user 5
+2025-07-12 16:19:54,400 INFO: Generating descriptions for batch 2/8
+2025-07-12 16:19:57,640 INFO: Generating descriptions for batch 2/8
+2025-07-12 16:20:11,448 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:20:14,701 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:20:42,319 INFO: Generating descriptions for batch 3/8
+2025-07-12 16:20:45,380 INFO: Generating descriptions for batch 3/8
+2025-07-12 16:20:50,098 INFO: Registered user: <User(id=11, name=kumar, location=ranchi)>
+2025-07-12 16:20:59,378 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:21:02,432 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:21:31,872 INFO: Generating descriptions for batch 4/8
+2025-07-12 16:21:35,497 INFO: Generating descriptions for batch 4/8
+2025-07-12 16:21:48,915 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:21:52,575 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:22:11,102 DEBUG: Database initialized in routes.py
+2025-07-12 16:22:34,882 INFO: Retrieved swaps for user 3
+2025-07-12 16:22:49,461 DEBUG: Database initialized in routes.py
+2025-07-12 16:22:50,578 DEBUG: Database initialized in routes.py
+2025-07-12 16:23:38,954 INFO: Retrieved swaps for user 5
+2025-07-12 16:26:24,003 DEBUG: Database initialized in routes.py
+2025-07-12 16:28:47,684 DEBUG: Database initialized in routes.py
+2025-07-12 16:29:55,779 DEBUG: Database initialized in routes.py
+2025-07-12 16:33:54,566 DEBUG: Database initialized in routes.py
+2025-07-12 16:36:04,849 DEBUG: Database initialized in routes.py
+2025-07-12 16:36:20,584 INFO: Registered user: <User(id=12, name=vaideeka, location=lucknow)>
+2025-07-12 16:37:08,791 INFO: Total: 52 skills, Unique: 37 skills
+2025-07-12 16:37:08,791 INFO: Processing skills: ['Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models', 'Machine Learning', 'react']
+2025-07-12 16:37:10,849 INFO: [OK] Ollama server and models available
+2025-07-12 16:37:10,849 INFO: Generating descriptions for 37 skills in batches...
+2025-07-12 16:37:10,849 INFO: Generating descriptions for batch 1/8
+2025-07-12 16:37:27,910 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:37:56,241 INFO: Generating descriptions for batch 2/8
+2025-07-12 16:38:03,786 INFO: Total: 53 skills, Unique: 37 skills
+2025-07-12 16:38:03,788 INFO: Processing skills: ['Python', 'MATLAB', 'TensorFlow', 'LLMs', 'Java', 'Generative AI', 'Time Series', 'CSS', 'MLflow', 'Javascript', 'Reinforcement Learning', 'Transformers', 'Keras', 'Docker', 'PyTorch', 'Flask', 'Go', 'Google Cloud', 'ReactJS', 'SQL', 'NLP', 'Kubernetes', 'CI/CD', 'Sphinx', 'R', 'HTML', 'CUDA', 'FastAPI', 'Kafka', 'Multi-Modal transformers', 'Latex', 'XGBoost', 'Git', 'Computer Vision', 'foundational Models', 'Machine Learning', 'react']
+2025-07-12 16:38:05,913 INFO: [OK] Ollama server and models available
+2025-07-12 16:38:05,915 INFO: Generating descriptions for 37 skills in batches...
+2025-07-12 16:38:05,915 INFO: Generating descriptions for batch 1/8
+2025-07-12 16:38:13,300 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:38:22,985 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:38:23,374 WARNING: Single description generation failed for Generative AI: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=8)
+2025-07-12 16:38:55,774 INFO: Generating descriptions for batch 3/8
+2025-07-12 16:38:58,695 INFO: Generating descriptions for batch 2/8
+2025-07-12 16:39:12,837 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:39:15,786 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:39:50,717 INFO: Generating descriptions for batch 4/8
+2025-07-12 16:39:54,078 INFO: Generating descriptions for batch 3/8
+2025-07-12 16:40:07,775 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:40:11,144 ERROR: Error in batch description generation: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=15)
+2025-07-12 16:40:19,283 DEBUG: Database initialized in routes.py
+2025-07-12 16:43:51,048 DEBUG: Database initialized in routes.py
+2025-07-12 16:47:52,562 DEBUG: Database initialized in routes.py
+2025-07-12 16:49:28,453 DEBUG: Database initialized in routes.py
+2025-07-12 16:53:36,482 DEBUG: Database initialized in routes.py
