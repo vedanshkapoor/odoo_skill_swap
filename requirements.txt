@@ -1,0 +1,7 @@
+flask==2.3.2
+sqlalchemy==2.0.19
+streamlit==1.23.1
+pdfplumber==0.10.2
+sentence-transformers==2.2.2  # For compatibility with Ollama embeddings
+faiss-cpu==1.7.2
+ollama==0.1.6

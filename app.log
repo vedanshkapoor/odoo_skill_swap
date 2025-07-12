@@ -1,0 +1,22 @@
+2025-07-12 12:31:25,499 DEBUG: Database initialized in routes.py
+2025-07-12 12:31:26,210 DEBUG: Database initialized in routes.py
+2025-07-12 12:31:43,569 INFO: Registered user: <User(id=3, name=Alice, location=Delhi)>
+2025-07-12 12:31:43,603 INFO: Added skill for user 3: Python
+2025-07-12 12:31:43,628 INFO: Retrieved swaps for user 3
+2025-07-12 12:31:43,639 INFO: Added swap: <Swap(id=3, from_user_id=3, to_user_id=3, status=pending)>
+2025-07-12 12:31:43,658 INFO: Retrieved swap: 3
+2025-07-12 12:31:43,666 INFO: Added feedback for swap 1
+2025-07-12 12:34:55,944 DEBUG: Database initialized in routes.py
+2025-07-12 12:34:56,599 DEBUG: Database initialized in routes.py
+2025-07-12 12:35:09,648 INFO: Registered user: <User(id=4, name=Alice, location=Delhi)>
+2025-07-12 12:35:09,659 INFO: Added skill for user 4: Python
+2025-07-12 12:35:09,681 INFO: Retrieved swaps for user 4
+2025-07-12 12:35:09,692 INFO: Added swap: <Swap(id=4, from_user_id=4, to_user_id=4, status=pending)>
+2025-07-12 12:35:09,699 INFO: Retrieved swap: 4
+2025-07-12 12:35:09,718 INFO: Added feedback for swap 1
+2025-07-12 12:36:22,988 INFO: Registered user: <User(id=5, name=Alice, location=Delhi)>
+2025-07-12 12:36:22,999 INFO: Added skill for user 5: Python
+2025-07-12 12:36:23,029 INFO: Retrieved swaps for user 5
+2025-07-12 12:36:23,040 INFO: Added swap: <Swap(id=5, from_user_id=5, to_user_id=5, status=pending)>
+2025-07-12 12:36:23,046 INFO: Retrieved swap: 5
+2025-07-12 12:36:23,080 INFO: Added feedback for swap 5

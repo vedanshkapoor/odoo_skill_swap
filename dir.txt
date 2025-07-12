@@ -1,0 +1,17 @@
+skill_swap/
+│
+├── app/                # Backend and core logic
+│   ├── __init__.py     # Flask app initialization
+│   ├── models.py       # Database models
+│   ├── routes.py       # API endpoints
+│   └── embeddings.py   # FAISS and embedding logic
+├── ui/                 # Frontend
+│   └── app.py          # Streamlit UI
+├── scripts/            # Separate scripts
+│   └── extract_skills.py  # Resume skill extraction
+├── data/               # Data storage
+│   ├── skill_swap.db   # SQLite database
+│   ├── resumes/        # Uploaded resume files
+│   └── embeddings/     # FAISS index and embeddings
+├── requirements.txt    # Package requirements
+└── README.md           # Project overview and instructions

@@ -1,0 +1,115 @@
+2025-07-12 12:13:04,345 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 12:19:16,770 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 12:19:16,822 DEBUG: http://127.0.0.1:5001 "POST /register HTTP/1.1" 201 56
+2025-07-12 12:19:16,822 INFO: Register response: 201, {'id': 1, 'location': 'Delhi', 'name': 'Alice'}
+2025-07-12 12:19:16,824 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:19:16,836 DEBUG: http://127.0.0.1:5001 "POST /skills HTTP/1.1" 201 48
+2025-07-12 12:19:16,836 INFO: Skills response: 201, {'message': 'Skill added', 'skill_id': 1}
+2025-07-12 12:19:16,838 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:19:16,865 DEBUG: http://127.0.0.1:5001 "GET /swaps?user_id=1 HTTP/1.1" 200 3
+2025-07-12 12:19:16,866 INFO: Swaps response: 200, []
+2025-07-12 12:19:16,867 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:19:16,875 DEBUG: http://127.0.0.1:5001 "POST /swaps HTTP/1.1" 201 77
+2025-07-12 12:19:16,876 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:19:16,893 DEBUG: http://127.0.0.1:5001 "GET /swaps/1 HTTP/1.1" 200 77
+2025-07-12 12:19:16,894 INFO: Swap response: 200, {'from_user_id': 1, 'id': 1, 'status': 'pending', 'to_user_id': 1}
+2025-07-12 12:19:16,896 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:19:16,914 DEBUG: http://127.0.0.1:5001 "POST /feedback HTTP/1.1" 201 54
+2025-07-12 12:19:16,915 INFO: Feedback response: 201, {'feedback_id': 1, 'message': 'Feedback added'}
+2025-07-12 12:19:16,915 INFO: Test completed. Check test_routes.log and app.log
+2025-07-12 12:25:54,719 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 12:25:54,759 DEBUG: http://127.0.0.1:5001 "POST /register HTTP/1.1" 201 56
+2025-07-12 12:25:54,760 INFO: Register response: 201, {'id': 2, 'location': 'Delhi', 'name': 'Alice'}
+2025-07-12 12:25:54,761 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:25:54,770 DEBUG: http://127.0.0.1:5001 "POST /skills HTTP/1.1" 201 48
+2025-07-12 12:25:54,771 INFO: Skills response: 201, {'message': 'Skill added', 'skill_id': 2}
+2025-07-12 12:25:54,772 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:25:54,795 DEBUG: http://127.0.0.1:5001 "GET /swaps?user_id=2 HTTP/1.1" 200 3
+2025-07-12 12:25:54,795 INFO: Swaps response: 200, []
+2025-07-12 12:25:54,796 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:25:54,806 DEBUG: http://127.0.0.1:5001 "POST /swaps HTTP/1.1" 201 77
+2025-07-12 12:25:54,809 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:25:54,836 DEBUG: http://127.0.0.1:5001 "GET /swaps/2 HTTP/1.1" 200 77
+2025-07-12 12:25:54,836 INFO: Swap response: 200, {'from_user_id': 2, 'id': 2, 'status': 'pending', 'to_user_id': 2}
+2025-07-12 12:25:54,837 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:25:54,870 DEBUG: http://127.0.0.1:5001 "POST /feedback HTTP/1.1" 201 54
+2025-07-12 12:25:54,871 INFO: Feedback response: 201, {'feedback_id': 2, 'message': 'Feedback added'}
+2025-07-12 12:25:54,871 INFO: Test completed. Check test_routes.log and app.log
+2025-07-12 12:31:43,523 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 12:31:43,571 DEBUG: http://127.0.0.1:5001 "POST /register HTTP/1.1" 201 56
+2025-07-12 12:31:43,572 INFO: Register response: 201, {'id': 3, 'location': 'Delhi', 'name': 'Alice'}
+2025-07-12 12:31:43,573 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:31:43,607 DEBUG: http://127.0.0.1:5001 "POST /skills HTTP/1.1" 201 48
+2025-07-12 12:31:43,607 INFO: Skills response: 201, {'message': 'Skill added', 'skill_id': 3}
+2025-07-12 12:31:43,608 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:31:43,629 DEBUG: http://127.0.0.1:5001 "GET /swaps?user_id=3 HTTP/1.1" 200 3
+2025-07-12 12:31:43,629 INFO: Swaps response: 200, []
+2025-07-12 12:31:43,630 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:31:43,641 DEBUG: http://127.0.0.1:5001 "POST /swaps HTTP/1.1" 201 77
+2025-07-12 12:31:43,642 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:31:43,659 DEBUG: http://127.0.0.1:5001 "GET /swaps/3 HTTP/1.1" 200 77
+2025-07-12 12:31:43,660 INFO: Swap response: 200, {'from_user_id': 3, 'id': 3, 'status': 'pending', 'to_user_id': 3}
+2025-07-12 12:31:43,661 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:31:43,669 DEBUG: http://127.0.0.1:5001 "POST /feedback HTTP/1.1" 201 54
+2025-07-12 12:31:43,669 INFO: Feedback response: 201, {'feedback_id': 3, 'message': 'Feedback added'}
+2025-07-12 12:31:43,669 INFO: Test completed. Check test_routes.log and app.log
+2025-07-12 12:32:46,508 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 12:32:48,543 DEBUG: Incremented Retry for (url='/register'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-07-12 12:32:48,543 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE93F093F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /register
+2025-07-12 12:32:48,543 DEBUG: Starting new HTTP connection (2): 127.0.0.1:5001
+2025-07-12 12:32:50,581 DEBUG: Incremented Retry for (url='/register'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-07-12 12:32:52,587 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE93F09630>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /register
+2025-07-12 12:32:52,587 DEBUG: Starting new HTTP connection (3): 127.0.0.1:5001
+2025-07-12 12:32:54,626 DEBUG: Incremented Retry for (url='/register'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-07-12 12:32:58,640 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE93F097E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /register
+2025-07-12 12:32:58,640 DEBUG: Starting new HTTP connection (4): 127.0.0.1:5001
+2025-07-12 12:33:00,681 ERROR: Register test failed: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE93F09990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-12 12:33:00,681 INFO: Test completed. Check test_routes.log and app.log
+2025-07-12 12:33:24,353 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 12:33:26,384 DEBUG: Incremented Retry for (url='/register'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-07-12 12:33:26,384 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002645DC993F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /register
+2025-07-12 12:33:26,384 DEBUG: Starting new HTTP connection (2): 127.0.0.1:5001
+2025-07-12 12:33:28,402 DEBUG: Incremented Retry for (url='/register'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-07-12 12:33:30,414 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002645DC99630>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /register
+2025-07-12 12:33:30,414 DEBUG: Starting new HTTP connection (3): 127.0.0.1:5001
+2025-07-12 12:33:32,455 DEBUG: Incremented Retry for (url='/register'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-07-12 12:33:36,469 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002645DC997E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /register
+2025-07-12 12:33:36,469 DEBUG: Starting new HTTP connection (4): 127.0.0.1:5001
+2025-07-12 12:33:38,519 ERROR: Register test failed: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /register (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002645DC99990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-07-12 12:33:38,519 INFO: Test completed. Check test_routes.log and app.log
+2025-07-12 12:35:09,635 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 12:35:09,650 DEBUG: http://127.0.0.1:5001 "POST /register HTTP/1.1" 201 56
+2025-07-12 12:35:09,650 INFO: Register response: 201, {'id': 4, 'location': 'Delhi', 'name': 'Alice'}
+2025-07-12 12:35:09,652 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:35:09,661 DEBUG: http://127.0.0.1:5001 "POST /skills HTTP/1.1" 201 48
+2025-07-12 12:35:09,662 INFO: Skills response: 201, {'message': 'Skill added', 'skill_id': 4}
+2025-07-12 12:35:09,664 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:35:09,682 DEBUG: http://127.0.0.1:5001 "GET /swaps?user_id=4 HTTP/1.1" 200 3
+2025-07-12 12:35:09,682 INFO: Swaps response: 200, []
+2025-07-12 12:35:09,683 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:35:09,693 DEBUG: http://127.0.0.1:5001 "POST /swaps HTTP/1.1" 201 77
+2025-07-12 12:35:09,694 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:35:09,700 DEBUG: http://127.0.0.1:5001 "GET /swaps/4 HTTP/1.1" 200 77
+2025-07-12 12:35:09,700 INFO: Swap response: 200, {'from_user_id': 4, 'id': 4, 'status': 'pending', 'to_user_id': 4}
+2025-07-12 12:35:09,701 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:35:09,722 DEBUG: http://127.0.0.1:5001 "POST /feedback HTTP/1.1" 201 54
+2025-07-12 12:35:09,722 INFO: Feedback response: 201, {'feedback_id': 4, 'message': 'Feedback added'}
+2025-07-12 12:35:09,722 INFO: Test completed. Check test_routes.log and app.log
+2025-07-12 12:36:22,982 DEBUG: Starting new HTTP connection (1): 127.0.0.1:5001
+2025-07-12 12:36:22,989 DEBUG: http://127.0.0.1:5001 "POST /register HTTP/1.1" 201 56
+2025-07-12 12:36:22,990 INFO: Register response: 201, {'id': 5, 'location': 'Delhi', 'name': 'Alice'}
+2025-07-12 12:36:22,992 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:36:23,003 DEBUG: http://127.0.0.1:5001 "POST /skills HTTP/1.1" 201 48
+2025-07-12 12:36:23,004 INFO: Skills response: 201, {'message': 'Skill added', 'skill_id': 5}
+2025-07-12 12:36:23,004 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:36:23,031 DEBUG: http://127.0.0.1:5001 "GET /swaps?user_id=5 HTTP/1.1" 200 3
+2025-07-12 12:36:23,031 INFO: Swaps response: 200, []
+2025-07-12 12:36:23,032 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:36:23,042 DEBUG: http://127.0.0.1:5001 "POST /swaps HTTP/1.1" 201 77
+2025-07-12 12:36:23,044 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:36:23,047 DEBUG: http://127.0.0.1:5001 "GET /swaps/5 HTTP/1.1" 200 77
+2025-07-12 12:36:23,047 INFO: Swap response: 200, {'from_user_id': 5, 'id': 5, 'status': 'pending', 'to_user_id': 5}
+2025-07-12 12:36:23,048 DEBUG: Resetting dropped connection: 127.0.0.1
+2025-07-12 12:36:23,083 DEBUG: http://127.0.0.1:5001 "POST /feedback HTTP/1.1" 201 54
+2025-07-12 12:36:23,083 INFO: Feedback response: 201, {'feedback_id': 5, 'message': 'Feedback added'}
+2025-07-12 12:36:23,083 INFO: Test completed. Check test_routes.log and app.log
